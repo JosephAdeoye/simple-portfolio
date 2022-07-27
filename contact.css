@@ -1,0 +1,18 @@
+.contact-us-div{
+    background-color: rgba(240, 228, 6, 0.527);
+    border-radius: 10px;
+    border-top: 10px solid rgb(242, 232, 213);
+}
+
+.my-address-and-number{
+    background-color: blue;
+    border-radius: 10px;
+    border-top: 5px solid rgb(242, 232, 213);
+}
+
+
+.my-email-twttr-fcbk{
+    background-color: rgb(242, 232, 213);
+    border-radius: 50px;
+    border-bottom: 4px solid blue;
+}

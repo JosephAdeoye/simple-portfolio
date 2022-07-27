@@ -1,0 +1,50 @@
+table{
+    background-color: white;
+    border: 20px  green;
+    border-radius: 1px;
+    width: 100%;
+    font-size: 20px;
+
+}
+
+tr{
+    background-color: rgb(5, 243, 84);
+   
+}
+
+th{
+    background-color: beige;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.swd{
+    background-color: rgba(5, 116, 61, 0.559);
+    border-radius: 10px;
+}
+
+#omolola{
+    
+    background-color: bisque;
+
+}
+
+
+#age{
+    background-color: rgb(176, 241, 201);
+    color: blue;
+    
+    
+}
+
+.junior-school{
+    background-color: rgb(148, 180, 148);
+  
+}
+
+.nursery-sch{
+   
+    background-color:green;
+    border-radius: 10px;
+  
+}

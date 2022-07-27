@@ -1,0 +1,82 @@
+body{
+    background-color: blue ;
+    
+}
+
+ul{
+    background-color:rgb(215, 224, 234);
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 99%;
+    border-right: 5px solid rgba(245, 5, 17, 0.861);
+    border-left: 5px solid rgb(206, 16, 16);
+    border-radius: 20px;
+}
+
+#faruq{
+    background-color: green;
+    border-radius: 5px;
+    border-bottom: 2.5px solid rgb(190, 245, 9);
+}
+
+#man{
+    background-color: rgb(67, 208, 2);
+    border-radius: 5px;
+    border-bottom: 2.5px solid rgb(190, 245, 9);
+}
+
+#nigerian{
+    background-color: rgb(130, 186, 61);
+    border-radius: 5px;
+    border-bottom: 2.5px solid rgb(190, 245, 9);
+}
+#yoruba{
+    background-color: green;
+    border-radius: 5px;
+    border-bottom: 2.5px solid rgb(190, 245, 9);
+}
+
+#muslim{
+    background-color: rgb(67, 208, 2);
+    border-radius: 5px;
+    border-bottom: 2.5px solid rgb(190, 245, 9);
+}
+
+#single{
+    background-color: rgb(130, 186, 61);
+    border-radius: 5px;
+    border-bottom: 2.5px solid rgb(190, 245, 9);
+}
+
+#my-photo{
+    border-radius: 50px;
+    border-top: 10px solid rgb(129, 154, 181);
+    border-right: 10px solid rgb(121, 192, 233);
+    border-left: 10px solid rgb(121, 192, 233);
+    border-bottom: 10px solid rgb(129, 154, 181);
+}
+
+h2{
+    background-color: white;
+    width: 98%;
+    border-top: 3px solid blue;
+    border-right: 5px solid rgba(245, 5, 17, 0.861);
+    border-left: 10px solid black;
+    border-radius: 100px;
+    color: blue;
+}
+
+h1{
+    background-color: rgb(244, 211, 211);
+    width: 98%;
+    border-top: 3px solid blue;
+    border-right: 5px solid rgba(245, 5, 17, 0.861);
+    border-left: 10px solid black;
+    border-radius: 100px;
+    color: blue;
+}
+
+p{
+    color: white;
+}
+
