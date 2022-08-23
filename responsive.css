@@ -1,0 +1,37 @@
+@media screen and (max-width: 375px) {
+    body{
+        /* width: 90vw; */
+    }
+
+    ul{
+        width: 90%;
+        padding-left: 10%;
+    }
+
+    #my-photo{
+        width: 90%;
+    }
+
+    table{
+        display: none;
+    }
+    
+    .about-me{
+        background-color: rgba(250, 235, 215, 0.356);
+        color: black !important;
+        
+    }
+
+    .fieldset{
+    padding: 0px;        
+    }
+
+  }
+
+
+
+  @media screen and (min-width: 375px) {
+    .about-me, .referees{
+        display: none;
+    }
+}

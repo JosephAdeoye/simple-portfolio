@@ -80,3 +80,13 @@ p{
     color: white;
 }
 
+a{
+    text-decoration: none;
+    color: red;
+}
+
+a:hover{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
