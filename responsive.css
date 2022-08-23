@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 419px) {
     body{
         /* width: 90vw; */
     }
@@ -30,7 +30,7 @@
 
 
 
-  @media screen and (min-width: 375px) {
+  @media screen and (min-width: 419px) {
     .about-me, .referees{
         display: none;
     }
