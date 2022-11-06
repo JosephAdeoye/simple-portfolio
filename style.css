@@ -1,25 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
 body{
-    background-color: blue ;
-    
-}
-header{
-    background-color: #d17111;
-    border: 2px solid white;
-    border-radius: 50px;
-    width: 99%;
-    border-right: 5px solid rgba(245, 5, 17, 0.861);
-    border-left: 5px solid rgb(206, 16, 16);
-    border-radius: 20px;
+    /* background-color: blue ; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.3rem;
 }
 
-.greeting{
-    background-color: white;
-    width: 98%;
-    border-top: 3px solid blue;
-    border-right: 5px solid rgba(245, 5, 17, 0.861);
-    border-left: 10px solid black;
-    border-radius: 100px;
+.hero{
+    padding: 100px 0;
+    background-color: darkcyan;
+    border: 1px solid red;
 }
+
+.hero_img{
+    width: 32%;
+}
+
+.container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.hero_text {
+   width: 60%; 
+}
+
+
+.greeting{
+    color: white;
+
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 
 
@@ -90,15 +109,6 @@ h2{
     color: blue;
 }
 
-h1{
-    background-color: rgb(244, 211, 211);
-    width: 98%;
-    border-top: 3px solid blue;
-    border-right: 5px solid rgba(245, 5, 17, 0.861);
-    border-left: 10px solid black;
-    border-radius: 100px;
-    color: blue;
-}
 
 p{
     color: white;
