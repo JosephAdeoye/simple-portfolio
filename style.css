@@ -2,7 +2,31 @@ body{
     background-color: blue ;
     
 }
+header{
+    background-color: #d17111;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 99%;
+    border-right: 5px solid rgba(245, 5, 17, 0.861);
+    border-left: 5px solid rgb(206, 16, 16);
+    border-radius: 20px;
+}
 
+.greeting{
+    background-color: white;
+    width: 98%;
+    border-top: 3px solid blue;
+    border-right: 5px solid rgba(245, 5, 17, 0.861);
+    border-left: 10px solid black;
+    border-radius: 100px;
+}
+
+
+
+#personal-information{
+    background-color: rgb(223, 223, 239);
+    border-radius: 10px;
+}
 ul{
     background-color:rgb(215, 224, 234);
     border: 2px solid white;
@@ -90,3 +114,123 @@ a:hover{
     color: blue;
     cursor: pointer;
 }
+
+
+
+table{
+    background-color: white;
+    border: 20px  green;
+    border-radius: 1px;
+    width: 800px;
+    font-size: 20px;
+
+
+}
+
+tr{
+    background-color: rgb(5, 243, 84);
+   
+}
+
+th{
+    background-color: beige;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.swd{
+    background-color: rgba(5, 116, 61, 0.559);
+    border-radius: 10px;
+}
+
+#omolola{
+    
+    background-color: bisque;
+
+}
+
+
+#age{
+    background-color: rgb(176, 241, 201);
+    color: blue;
+    
+    
+}
+
+.junior-school{
+    background-color: rgb(148, 180, 148);
+  
+}
+
+.nursery-sch{
+   
+    background-color:green;
+    border-radius: 10px;
+  
+}
+
+.contact-us-div{
+    background-color: rgba(240, 228, 6, 0.527);
+    border-radius: 10px;
+    border-top: 10px solid rgb(242, 232, 213);
+}
+
+.my-address-and-number{
+    background-color: blue;
+    border-radius: 10px;
+    border-top: 5px solid rgb(242, 232, 213);
+}
+
+
+.my-email-twttr-fcbk{
+    background-color: rgb(242, 232, 213);
+    border-radius: 50px;
+    border-bottom: 4px solid blue;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 419px) {
+    body{
+        /* width: 90vw; */
+    }
+
+    ul{
+        width: 90%;
+        padding-left: 10%;
+    }
+
+    #my-photo{
+        width: 90%;
+    }
+
+    table{
+        display: none;
+    }
+    
+    .about-me{
+        background-color: rgba(250, 235, 215, 0.356);
+        color: black !important;
+        
+    }
+
+    .fieldset{
+    padding: 0px;        
+    }
+
+  }
+
+
+
+  @media screen and (min-width: 419px) {
+    .about-me, .referees{
+        display: none;
+    }
+}
+
