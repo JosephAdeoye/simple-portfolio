@@ -10,12 +10,37 @@ body{
 
 .hero{
     padding: 100px 0;
-    background-color: darkcyan;
-    border: 1px solid red;
+    background-color: black;
+}
+.hero_text {
+    width: 60%; 
+ }
+ 
+.green {
+    color: green;
 }
 
-.hero_img{
-    width: 32%;
+.hero_img {
+    height: 30vw;
+}
+
+.hero_btn {
+    font-size: 16px;
+    padding: 15px 30px;
+    margin: 50px 0 0 10px;
+    /* border-radius: 10px; */
+    color: white;
+    background-color: green;
+}
+
+.hero_btn:hover {
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+}
+
+.hero_btn + .hero_btn {
+    margin-left: 10px;
 }
 
 .container{
@@ -24,14 +49,18 @@ body{
     margin: 0 auto;
 }
 
-.hero_text {
-   width: 60%; 
+.row {
+    display: flex;
+    justify-content: space-between;
 }
-
 
 .greeting{
     color: white;
+}
 
+.greeting p {
+    line-height: 2;
+    font-weight: 16px;
 }
 
 h1{
